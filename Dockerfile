@@ -6,7 +6,7 @@ RUN node -v
 RUN npm -v
 
 # Set ulimit for open files to avoid limit issues
-RUN ulimit -n 65536 
+#RUN ulimit -n 65536 
 
 # Create app directory
 WORKDIR /app
